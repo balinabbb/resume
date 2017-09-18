@@ -1,2 +1,2 @@
-import data from '../content/data/ad-en.json';
+import data from '../content/data/bb-en.json';
 export default data;

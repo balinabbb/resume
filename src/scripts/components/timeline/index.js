@@ -16,7 +16,7 @@ importAllImage(require.context('../../../content/partner-logos', false, /\.png$/
 export default function ({}) {
     return (
         <div className="time-line">
-            <span className="center-line"/>
+            <span className="center-line" style={{height: `${data.length*270}px`}}/>
             {data.map((x, i) => {
                 const logo0 = logos[x[0].logo];
                 const logo1 = x[1] && logos[x[1].logo];
